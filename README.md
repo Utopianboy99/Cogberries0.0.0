@@ -1,5 +1,15 @@
 # React + Vite
 
+This is a demo website which will serve as a base or foundation for the ecommerce site that we will have to build at the end
+of the year. 
+
+Every week I will be building a part of the website. If i come upon any dificulties. I'll comment them and explain 
+what exactly is giving me trouble. If needed I'll take even longer to get what i need exactly.
+
+The Aim : Finish E-commerce website before the end of the year. with everything functioning alright and with a backend that 
+works properly.
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

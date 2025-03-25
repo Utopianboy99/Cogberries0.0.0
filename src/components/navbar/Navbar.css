@@ -1,0 +1,175 @@
+.Navbar {
+    width: 100vw;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border-radius: 10px; */
+    border-bottom: 2px solid black;
+    padding:15px 0px;
+}
+
+.logo{
+    width:20px;
+    height:20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border:2px solid red; */
+    width:80%;
+    justify-content: space-between;
+    height:40px;
+}
+
+.nav-links{
+    height:40px;
+    width:70%;
+    /* border:2px solid red; */
+    display: flex;
+    list-style: none;
+    padding:0px 5%;
+    margin:0px 3%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.dropbtn {
+    padding: 10px 5px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    cursor: pointer;
+    border:none;
+    margin: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    /* border: 2px solid red; */
+    display: none;
+    height: 590px;
+    position: absolute;
+    top:40px;
+    width:1260px;
+    left:-270px;
+    background-color: #fefefc; 
+    /* min-width: 160px; */
+    /* max-width: 1000px; */
+    z-index: 1;
+    text-align:left;
+    /* display: flex;                                                          don't forget to remove this when done with drop content */
+    justify-content: space-around;
+}
+
+.lead-text{
+    margin: 15px 0px 5px;
+}
+
+.block1-intro{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-block{
+    margin-top:10px;
+    /* border:1px solid red; */
+    width: 230px;
+    height:150px;
+}
+
+.info-block h4{
+    margin-bottom:10px;
+}
+
+.info-block li{
+    font-size:14px;
+    list-style-type: none;
+}
+
+.info-block li a{
+    text-decoration: none;
+    color: #08144f;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.search-box {
+    width:50%;
+    padding: 6px 30px 6px 10px;
+    border-radius: 15px;
+    border: 1px solid black; /* Ensures the border width stays the same */
+    outline: none; /* Removes default browser highlight */
+}
+
+.search-box:focus {
+    border: 1px solid black; /* Keeps the same border */
+    outline: none; /* Optional: Prevents blue glow in some browsers */
+}
+
+
+
+#cog-bizz, #PnP{
+    color:black;
+    text-decoration: none;
+}
+
+button{
+    border:none
+}
+
+.Login{
+    color:#42c4ff;
+    text-decoration: none;
+    padding:6px 10px;
+    background-color: #08144f;
+    border:none;
+    border-radius: 10px;
+    margin:0px 2px
+}
+
+.sign-up{
+    margin:0px 2px;
+    background-color: #08144f;
+    color:#fefefc;
+    text-decoration: none;
+    padding:6px 10px;
+    border:none;
+    border-radius: 10px;
+}
+
+/* h1{
+    color:black;
+} */
+
+/* AccountCircleIcon{
+    color:aqua
+} */
+
+.drawer-links-button{
+    background-color: #08144f;
+    /* border:2px solid red; */
+    width:300px;
+    height:35px;
+    margin:3px 5px;
+    box-shadow: 1px 1px 3px #08144f;
+}
+
+.drawer-links{
+    text-decoration: none;
+    color:#fefefc;
+    padding: 15px 80px;
+    font-size: 18px;
+}
